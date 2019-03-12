@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bbyshower.css">
 	<title>Baby Shower</title>
@@ -9,16 +11,24 @@
 <body>
 <header>
 	<h1><span style="color: #3494E6">Boy</span> or <span style="color: #EC6EAD">Girl</span>?</h1>
-	<h2>
-		Paulina and Luis would like to hear what you think! Vote below to tell us if it will be a BOY or  GIRL!
+	<h2><p class="col">
+		Paulina and Luis would like to hear what you think! Vote below to tell us if it will be a BOY or  GIRL!</p>
 	</h2>
 </header>
-<div class="total">
-	<h3 id="results">
-  		TOTAL: 0 BOY: 0 GIRL: 0
-	</h3>
+<div class="container-fluid total" id="results">
+  <div class="row">
+    <div class="col-sm">
+      TOTAL: 0
+    </div>
+    <div class="col-sm">
+      BOY: 0
+    </div>
+    <div class="col-sm">
+    	GIRL: 0
+    </div>
+  </div>
 </div>
-<div id="button">
+<div class="container" id="button">
 	<button type="button" id="boy-button">vote for BOY</button>
 	<button type="button" id="girl-button">vote for GIRL</button>
 </div>
@@ -27,4 +37,7 @@
 
 </body>
 <script src="boyorgirl.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

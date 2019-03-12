@@ -1,7 +1,7 @@
 body {
-	background: #3494E6;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
-	background: linear-gradient(to right, #EC6EAD, #3494E6);
+	background: #009FFF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+	background: linear-gradient(to right, #ec2F4B, #009FFF);
 	color: #fff;
 }
 
@@ -12,23 +12,30 @@ header h1 {
 }
 header h2 {
 	text-align: center;
+	font-family: 'Delius Unicase', cursive;
 }
-.total h3 {
+.container-fluid {
 	text-align: center;
 }
+#results {
+	color: #fff;
+	font-family: 'Delius Unicase', cursive;
+}
+.container {
+	text-align: center;
+}
+#button {
+	margin-top: 50px;
+}
 #boy-button {
-	display: flex;
-	height: 20px;
-	width: 90px;
+	text-align: center;
+	height: auto;
+	width: auto;
 	margin: 0 auto;
-	top: 50%;
-	left: 55%;
 }
 #girl-button {
-	display: flex;
-	height: 20px;
-	width: 90px;
+	text-align: center;
+	height: auto;
+	width: auto;
 	margin: 0 auto;
-	top: 50%;
-	left: 30%;
 }
