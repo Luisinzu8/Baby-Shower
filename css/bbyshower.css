@@ -1,8 +1,8 @@
 body {
 	background: #009FFF;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
-	background: linear-gradient(to right, #ec2F4B, #009FFF);
-	color: #fff;
+	background: linear-gradient(to right, skyblue 10%, white 10%, white 40%, white 40%, white 60%, white 60%, white 90%, pink 90%);
+	color: #000;
 }
 
 header h1 {
