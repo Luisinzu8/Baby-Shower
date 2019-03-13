@@ -24,12 +24,11 @@ header h2 {
 #results {
 	color: #000;
 	font-family: 'Delius Unicase', cursive;
+	position: fixed;
 }
 .container {
 	text-align: center;
-}
-#button {
-	margin-top: 50px;
+	margin-top: 100px;
 }
 #boy-button {
 	text-align: center;
