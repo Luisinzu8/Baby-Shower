@@ -4,7 +4,12 @@ body {
 	background: linear-gradient(to right, skyblue 10%, white 10%, white 40%, white 40%, white 60%, white 60%, white 90%, pink 90%);
 	color: #000;
 }
-
+.navbar-light .navbar-brand {
+    color: skyblue;
+}
+.navbar-light .navbar-brand:hover {
+	color: pink;
+}
 header h1 {
 	font-size: 100px;
 	font-family: 'Delius Unicase', cursive;
@@ -24,11 +29,10 @@ header h2 {
 #results {
 	color: #000;
 	font-family: 'Delius Unicase', cursive;
-	position: fixed;
 }
 .container {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 #boy-button {
 	text-align: center;
